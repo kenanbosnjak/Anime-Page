@@ -1,0 +1,201 @@
+header {
+    background: rgba(159,99,242,0.7);
+background: linear-gradient(0deg, rgba(159,99,242,0.7) 0%, rgba(238,164,246,0.7) 100%);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+body {
+    margin: 0;
+}
+.info {
+width: 500px;
+height: 70px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.header_links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Anime Ace', sans-serif;
+    font-weight: bold;
+
+}
+
+.header_links:hover{
+    text-shadow: -1px 2px 11px rgb(150, 21, 255);
+    filter: brightness(1.2);
+}
+
+p2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Anime Ace', sans-serif;
+
+
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.main_content{
+    width: 1400px;
+    height: 600px;
+    background-color: rgba(92, 92, 92, 0.7);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anime_text {
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime_image {
+    width: 600px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+#pink_chick{
+    width: 600px;
+    height: 400px;  
+    box-shadow: 0px 1px 41px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 41px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 41px -3px rgba(0,0,0,0.75);
+}
+
+h1{
+    color: white;
+    font-family: 'Anime Ace', sans-serif;
+    font-weight: bold; 
+    text-align: center;  
+    font-size: 35px;
+    text-shadow: -1px 2px 11px rgb(153, 137, 245);
+    filter: brightness(1.2);
+}
+
+p{
+    margin-top: 0px;
+    color: white;
+    font-family: 'h Hachimaki', sans-serif;
+    font-size: 20px;                                              
+    text-align: center;   
+    letter-spacing: 4px;
+}
+
+#click_here{
+width: 110px;
+height: 50px;
+border: none;
+font-size: 16px;
+border-radius: 25px;
+color: white;
+background: rgb(159,99,242);
+background: linear-gradient(0deg, rgba(159,99,242,1) 0%, rgba(122,154,255,1) 100%);
+transition: box-shadow 0.3s ease;
+border: 1px solid white;
+}
+
+#click_here:hover{
+    box-shadow: 2px 2px 34px -3px rgba(201,75,245,0.75);
+    -webkit-box-shadow: 2px 2px 34px -3px rgba(201,75,245,0.75);
+    -moz-box-shadow: 2px 2px 34px -3px rgba(201,75,245,0.75);  
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.catalog{
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    background: rgb(159,99,242);
+    background: linear-gradient(0deg, rgba(159,99,242,1) 0%, rgba(122,154,255,1) 100%);
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    opacity: 0.8;
+}
+
+.animes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anime{
+height: 240px;
+width: 150px;
+
+}
+
+#anime{
+width: 146px;
+height: 190px;
+border-radius: 20px;
+border: 3px solid white;
+margin-bottom: 8px;
+margin-left: -2px;
+transition: box-shadow 0.3s ease;
+}
+
+#anime:hover{
+    width: 146px;
+    height: 190px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-bottom: 8px;
+    margin-left: -2px;
+    box-shadow: -1px -1px 20px 11px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px -1px 20px 11px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px -1px 20px 11px rgba(255,255,255,0.75);
+    }
+
+.quote{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    text-shadow: -1px 2px 11px rgb(0, 0, 0);
+    filter: brightness(1.2);
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{
+    font-family: 'Calculator', sans-serif;   
+    font-weight: bold;
+    color: #b168ed;                                          
+}
